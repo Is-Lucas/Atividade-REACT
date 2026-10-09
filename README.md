@@ -1,16 +1,48 @@
-# React + Vite
+# Portal de notícias · React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<sub>IS-LUCAS · REACT · JAVASCRIPT · VITE · OXLINT</sub>
 
-Currently, two official plugins are available:
+## Sobre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Uma atividade de aula para montar a estrutura de um portal de notícias com React. A página combina barra lateral, artigos e rodapé, separados em componentes.
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React · JavaScript · Vite · Oxlint
 
-## Expanding the Oxlint configuration
+## Conteúdo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+| Caminho | Conteúdo |
+| --- | --- |
+| `src/pages/Home.jsx` | Página do portal |
+| `src/components/` | Componentes da interface |
+| `src/assets/` | Imagens |
+| `src/main.jsx` | Entrada da aplicação |
+| `package.json` | Dependências e comandos |
+
+## Como executar
+
+Com Node.js e npm instalados:
+
+```bash
+git clone https://github.com/Is-Lucas/Atividade-REACT.git
+cd Atividade-REACT
+npm ci
+npm run dev
+```
+
+Abra o endereço exibido no terminal.
+
+| Comando | Uso |
+| --- | --- |
+| `npm run dev` | Servidor de desenvolvimento |
+| `npm run build` | Gera a versão de produção |
+| `npm run preview` | Prévia da versão gerada, após o build |
+| `npm run lint` | Verifica o código com Oxlint |
+
+## Contexto
+
+Atividade de estudo do curso de Desenvolvimento de Sistemas. Este repositório reúne a prática feita nas aulas.
+
+---
+[Isaias Lucas](https://github.com/Is-Lucas) · Desenvolvimento de Sistemas
